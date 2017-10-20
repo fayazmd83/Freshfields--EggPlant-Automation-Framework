@@ -1,0 +1,137 @@
+﻿SetOption Scriptlogging, Off
+SetOption ScriptAnimation, All
+
+(*
+Put 0 into TimesToRepeat
+Put 0 into TimesOpened
+*)
+
+
+
+open file "D:\Users\mosherif\Documents\EggPlant\datafiles\freshfields.txt" for appending
+
+
+wait 2
+
+//CALCULATING USER NAVIGATION TIME FOR 'OUR HISTORY' PAGE
+click "Freshfields-logo"
+Wait until ImageFound(5, "Aboutus")
+Click ("Aboutus")
+wait 2
+Click ("Ourhistory")
+put the long time into WhenItStarted
+Log "Our History -  calculation started"
+
+Wait until ImageFound(60, "Ourhistory_1")
+Put the long time into WhenItFinished
+put (WhenItFinished-WhenItStarted) into ExecTime
+write "ABOUT_US, Navigating to About Us Page, 1st_Module" & ", " &  date&", " &  WhenItStarted& ", "   & WhenItFinished & ", " & ExecTime & crlf to file           "D:\Users\mosherif\Documents\EggPlant\datafiles\freshfields.txt"
+
+
+
+
+//CALCULATING THE TIME TAKEN FOR USER REGISTRATION
+
+set myFile to "D:\Users\mosherif\Documents\EggPlant\datafiles\freshfields.csv"
+click "Freshfields-logo"
+Wait until ImageFound(5, "Aboutus")
+click "Register"
+Wait until ImageFound(10, "registrationPage")
+wait 7
+put the long time into WhenItStarted	
+Log "User Registration- time calculation started" //Start 2nd module of the script
+//importing data from csv file
+repeat  with theData= each line of line 6 of  file "D:\Users\mosherif\Documents\EggPlant\datafiles\freshfields.csv"
+	
+	put item 1 of theData into FirstName
+	put item 2 of theData into LastName
+	put item 3 of theData into StartYear
+	put item 4 of theData into EndYear
+	put item 5 of theData into CurrCmp
+	put item 6 of theData into CurrPosition
+	put item 7 of theData into EmailAddr
+	put item 8 of theData into Pwd
+	put item 9 of theData into ConfPwd
+	put item 10 of theData into RegisterYN
+	
+	
+	If RegisterYN = ("Y")  
+	then
+		
+		click "FirstName"	
+		wait 1
+		typetext FirstName
+		wait 1
+		typetext tabkey
+		wait 1
+		typetext LastName
+		wait 1
+		typetext tabkey
+		wait 1
+		typetext StartYear
+		wait 1
+		typetext tabkey
+		wait 1
+		typetext EndYear
+		wait 1
+		repeat 2 times
+			typetext tabkey
+			wait 1
+		end repeat
+		
+		typetext CurrCmp
+		wait 1
+		typetext tabkey
+		wait 1
+		typetext CurrPosition
+		wait 1
+		typetext tabkey
+		wait 1
+		typetext "bala.krishna"
+		typetext ShiftDown, "'",ShiftUp, "aol.com"
+		wait 1
+		typetext tabkey
+		wait 1
+		typetext Pwd
+		wait 1
+		typetext tabkey
+		wait 1
+		TypeText ConfPwd
+		wait 1
+		repeat 5 times
+			click "scrolldown"
+		end repeat
+		wait 3
+		click "Submit"
+		wait 2
+		typetext controlKey,"w"
+		wait 2
+	end if
+	
+end repeat
+
+
+Put the long time into WhenItFinished
+put (WhenItFinished-WhenItStarted) into ExecTime
+write "USER_REGISTRATION, User Registration screen, 2nd_Module"  & ", " &  date&", " &  WhenItStarted& ", "   & WhenItFinished & ", " & ExecTime & crlf to file   "D:\Users\mosherif\Documents\EggPlant\datafiles\freshfields.txt"
+
+
+
+// CALCULATING THE TIME TAKEN FOR SEARCHING USER ACCOUNT
+click "Freshfields-logo"
+Wait until ImageFound(60, "Search_Name")
+Click (Image:"Search_Name", WaitFor:60)
+TypeText "matthew sinclair",Return
+
+put the long time into WhenItStarted	
+Log "SEARCH -Time calculation started" //Start 3rd module of the script
+
+
+Wait until ImageFound(60, "MatthewSinclairThomson")
+
+Put the long time into WhenItFinished
+put (WhenItFinished-WhenItStarted) into ExecTime
+write "SEARCH, Enter Credentials, 3rd_Module"& ", " &  date&", " &  WhenItStarted& ", "   & WhenItFinished & ", " & ExecTime & crlf to file   "D:\Users\mosherif\Documents\EggPlant\datafiles\freshfields.txt"
+
+click "Freshfields-logo"
+Wait until ImageFound(5, "Aboutus")

@@ -1,0 +1,94 @@
+﻿
+click "Register"
+Wait until ImageFound(10, "registrationPage")
+wait 7
+
+
+//Enter employee details
+
+set myFile to "D:\Users\mosherif\Documents\EggPlant\datafiles\freshfields.csv"
+
+//importing data from csv file
+repeat  with theData= each line of line 2 of  file "D:\Users\mosherif\Documents\EggPlant\datafiles\freshfields.csv"
+	
+	put item 1 of theData into FirstName
+	put item 2 of theData into LastName
+	put item 3 of theData into StartYear
+	put item 4 of theData into EndYear
+	put item 5 of theData into CurrCmp
+	put item 6 of theData into CurrPosition
+	put item 7 of theData into EmailAddr
+	put item 8 of theData into Pwd
+	put item 9 of theData into ConfPwd
+	put item 10 of theData into RegisterYN
+	
+	
+	If RegisterYN = ("Y")  
+	then
+		
+		click "FirstName"	
+		wait 1
+		typetext FirstName
+		wait 1
+		typetext tabkey
+		wait 1
+		typetext LastName
+		wait 1
+		typetext tabkey
+		wait 1
+		typetext StartYear
+		wait 1
+		typetext tabkey
+		wait 1
+		typetext EndYear
+		wait 1
+		repeat 2 times
+			typetext tabkey
+			wait 1
+		end repeat
+		
+		typetext CurrCmp
+		wait 1
+		typetext tabkey
+		wait 1
+		typetext CurrPosition
+		wait 1
+		typetext tabkey
+		wait 1
+		typetext "myatt.fields"
+		typetext ShiftDown, "'",ShiftUp, "gmail.com"
+		wait 1
+		typetext tabkey
+		wait 1
+		typetext Pwd
+		wait 1
+		typetext tabkey
+		wait 1
+		TypeText ConfPwd
+		wait 1
+		repeat 5 times
+			click "scrolldown"
+		end repeat
+		wait 3
+		click "Submit"
+		wait 3
+		
+	end if
+	
+end repeat
+
+repeat 5 times
+	click "scrolldown"
+end repeat
+wait 3
+
+//exception handling
+
+if ImageFound(5, "Errormessage")
+	Log "Exception successfully handled.This is a valid error message as the details are not validated."
+	
+	typetext controlKey,"w"
+	wait 2
+	put exception
+end if
+

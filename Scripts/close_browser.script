@@ -1,0 +1,4 @@
+﻿
+//Close browser window
+TypeText altKey, F4
+wait 2

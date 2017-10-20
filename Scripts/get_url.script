@@ -1,0 +1,5 @@
+﻿
+//NAVIGATE TO THE URL
+TypeText "http://www.freshfields.com/en/global", returnKey  
+WaitFor 30, "Freshfields-logo.png" 
+

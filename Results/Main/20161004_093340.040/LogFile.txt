@@ -1,0 +1,62 @@
+﻿2016-10-04 09:33:40.040 +0100	START		Running Main.script
+2016-10-04 09:33:42.042 +0100	imagefound	ie_close_button	Unable to Find Image ie_close_button within 2.00 seconds	2	on_open_browser	open_browser.script
+2016-10-04 09:33:42.042 +0100	typetext		[windowsKey]	13	on_open_browser	open_browser.script
+2016-10-04 09:33:45.045 +0100	typetext		iexplore.exe[returnKey]	15	on_open_browser	open_browser.script
+2016-10-04 09:33:55.055 +0100	typetext		[windowsAltKey]d	18	on_open_browser	open_browser.script
+2016-10-04 09:33:58.058 +0100	typetext		http://www.freshfields.com/en/global[returnKey]	3	on_get_url	get_url.script
+2016-10-04 09:33:59.059 +0100	waitfor	Freshfields-logo.png	found at (125, 101)	4	on_get_url	get_url.script
+2016-10-04 09:33:59.059 +0100	click	Register	at (825, 640)	2	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:03.003 +0100	imagefound	registrationPage	found at (171, 137)	3	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:10.010 +0100	click	FirstName	at (247, 565)	29	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:11.011 +0100	typetext		Myatt	31	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:12.012 +0100	typetext		[tab]	33	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:13.013 +0100	typetext		Fields	35	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:14.014 +0100	typetext		[tab]	37	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:15.015 +0100	typetext		2015	39	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:16.016 +0100	typetext		[tab]	41	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:18.018 +0100	typetext		2016	43	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:19.019 +0100	typetext		[tab]	46	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:20.020 +0100	typetext		[tab]	46	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:21.021 +0100	typetext		Sogeti	50	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:22.022 +0100	typetext		[tab]	52	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:23.023 +0100	typetext		Barrister	54	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:24.024 +0100	typetext		[tab]	56	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:26.026 +0100	typetext		myatt.fields	58	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:27.027 +0100	typetext		[shiftDown]'[shiftUp]gmail.com	59	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:28.028 +0100	typetext		[tab]	61	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:29.029 +0100	typetext		myatt123	63	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:30.030 +0100	typetext		[tab]	65	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:31.031 +0100	typetext		myatt123	67	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:33.033 +0100	click	scrolldown	at (1004, 632)	70	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:33.033 +0100	click	scrolldown	at (1004, 632)	70	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:34.034 +0100	click	scrolldown	at (1004, 632)	70	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:35.035 +0100	click	scrolldown	at (1004, 632)	70	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:36.036 +0100	click	scrolldown	at (1004, 632)	70	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:39.039 +0100	click	Submit	at (873, 320)	73	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:42.042 +0100	click	scrolldown	at (1004, 632)	81	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:43.043 +0100	click	scrolldown	at (1004, 632)	81	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:44.044 +0100	click	scrolldown	at (1004, 632)	81	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:45.045 +0100	click	scrolldown	at (1004, 632)	81	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:46.046 +0100	click	scrolldown	at (1004, 632)	81	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:49.049 +0100	imagefound	Errormessage	found at (284, 650)	87	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:49.049 +0100	Log		Exception successfully handled.This is a valid error message as the details are not validated.	88	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:49.049 +0100	typetext		[controlKey]w	90	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:34:51.051 +0100	imagefound	Aboutus	found at (70, 150)	2	on_aboutus	Aboutus.script
+2016-10-04 09:34:51.051 +0100	click	Aboutus	at (70, 150)	3	on_aboutus	Aboutus.script
+2016-10-04 09:34:53.053 +0100	click	Ourhistory	at (96, 296)	5	on_aboutus	Aboutus.script
+2016-10-04 09:34:55.055 +0100	imagefound	Ourhistory_1	found at (108, 462)	7	on_aboutus	Aboutus.script
+2016-10-04 09:34:55.055 +0100	imagefound	Ourhistory_1	found at (108, 462)	9	on_aboutus	Aboutus.script
+2016-10-04 09:34:55.055 +0100	LogSuccess		we are in the right Page	10	on_aboutus	Aboutus.script
+2016-10-04 09:34:55.055 +0100	click	HomeButton	at (61, 99)	17	on_aboutus	Aboutus.script
+2016-10-04 09:34:59.059 +0100	imagefound	Search_Name	found at (864, 243)	3	on_search_functionality	Search_functionality.script
+2016-10-04 09:34:59.059 +0100	click	Search_Name	at (864, 243)	6	on_search_functionality	Search_functionality.script
+2016-10-04 09:35:00.000 +0100	typetext		matthew sinclair[return]	8	on_search_functionality	Search_functionality.script
+2016-10-04 09:35:02.002 +0100	imagefound	MatthewSinclairThomson	found at (184, 227)	12	on_search_functionality	Search_functionality.script
+2016-10-04 09:35:02.002 +0100	imagefound	MatthewSinclairThomson	found at (184, 227)	15	on_search_functionality	Search_functionality.script
+2016-10-04 09:35:02.002 +0100	LogSuccess		Search criteria found	16	on_search_functionality	Search_functionality.script
+2016-10-04 09:35:03.003 +0100	click	HomeButton	at (61, 99)	23	on_search_functionality	Search_functionality.script
+2016-10-04 09:35:12.012 +0100	Log		Our History -  calculation started	23	on_calc_navigation_time	calc_navigation_time.script
+2016-10-04 09:35:24.024 +0100	Log		User Registration- time calculation started	42	on_calc_navigation_time	calc_navigation_time.script
+2016-10-04 09:36:04.004 +0100	Log		SEARCH -Time calculation started	127	on_calc_navigation_time	calc_navigation_time.script
+2016-10-04 09:36:09.009 +0100	EndTestCase		(Duration:"149.543", Errors:"0", Exceptions:"0", StartTime:"2016-10-04 09:33:40 +0100", Successes:"2", TestCase:"Main.script", Warnings:"0")
+2016-10-04 09:36:10.010 +0100	SUCCESS		Execution Time 0:02:29 Main.script

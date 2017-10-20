@@ -1,0 +1,43 @@
+﻿2016-09-30 12:36:27.027 +0100	START		Running Main.script
+2016-09-30 12:36:29.029 +0100	imagefound	ie_close_button	Unable to Find Image ie_close_button within 2.00 seconds	2	on_open_browser	open_browser.script
+2016-09-30 12:36:29.029 +0100	typetext		[windowsKey]	13	on_open_browser	open_browser.script
+2016-09-30 12:36:32.032 +0100	typetext		iexplore.exe[returnKey]	15	on_open_browser	open_browser.script
+2016-09-30 12:36:42.042 +0100	typetext		[windowsAltKey]d	18	on_open_browser	open_browser.script
+2016-09-30 12:36:45.045 +0100	typetext		http://www.freshfields.com/en/global[returnKey]	3	on_get_url	get_url.script
+2016-09-30 12:36:46.046 +0100	waitfor	Freshfields-logo.png	found at (126, 93)	4	on_get_url	get_url.script
+2016-09-30 12:36:47.047 +0100	click	Register	at (826, 632)	2	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:36:57.057 +0100	imagefound	registrationPage	Unable to Find Image registrationPage within 10.00 seconds	3	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:06.006 +0100	imagefound	registrationPage	found at (172, 129)	3	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:13.013 +0100	click	FirstName	at (248, 557)	29	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:15.015 +0100	typetext		Myatt	31	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:16.016 +0100	typetext		[tab]	33	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:17.017 +0100	typetext		Fields	35	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:18.018 +0100	typetext		[tab]	37	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:19.019 +0100	typetext		2015	39	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:20.020 +0100	typetext		[tab]	41	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:21.021 +0100	typetext		2016	43	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:22.022 +0100	typetext		[tab]	46	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:23.023 +0100	typetext		[tab]	46	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:25.025 +0100	typetext		Sogeti	50	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:26.026 +0100	typetext		[tab]	52	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:27.027 +0100	typetext		Barrister	54	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:28.028 +0100	typetext		[tab]	56	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:29.029 +0100	typetext		myatt.fields	58	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:30.030 +0100	typetext		[shiftDown]'[shiftUp]gmail.com	59	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:31.031 +0100	typetext		[tab]	61	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:33.033 +0100	typetext		myatt123	63	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:34.034 +0100	typetext		[tab]	65	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:35.035 +0100	typetext		myatt123	67	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:36.036 +0100	click	scrolldown	at (1014, 688)	70	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:37.037 +0100	click	scrolldown	at (1014, 688)	70	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:38.038 +0100	click	scrolldown	at (1014, 688)	70	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:39.039 +0100	click	scrolldown	at (1014, 688)	70	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:39.039 +0100	click	scrolldown	at (1014, 688)	70	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:43.043 +0100	click	Submit	at (874, 583)	73	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:46.046 +0100	click	scrolldown	at (1014, 688)	81	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:47.047 +0100	click	scrolldown	at (1014, 688)	81	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:47.047 +0100	click	scrolldown	at (1014, 688)	81	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:48.048 +0100	click	scrolldown	at (1014, 688)	81	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:49.049 +0100	click	scrolldown	at (1014, 688)	81	on_enter_employeedata	enter_employeeData.script
+2016-09-30 12:37:57.057 +0100	EndTestCase		(Duration:"90.59", Errors:"1", Exceptions:"0", StartTime:"2016-09-30 12:36:27 +0100", Successes:"0", TestCase:"Main.script", Warnings:"0")
+2016-09-30 12:37:57.057 +0100	ABORTED		Execution Time 0:01:30 Main.script

@@ -1,0 +1,21 @@
+﻿
+If ImageFound(2, "ie_close_button") then //IF browser window is already Open then Close it and Reopen
+	TypeText altKey, f4	
+	wait 2
+	typetext windowsKey
+	wait 2
+	typetext "iexplore.exe", returnKey
+	wait 10
+	
+	TypeText altKey, d//Go to address bar 	
+	wait 2
+Else
+	typetext windowsKey
+	wait 2
+	typetext "iexplore.exe", returnKey
+	wait 10
+	
+	TypeText altKey, d//Go to address bar 	
+	wait 2
+	
+End If

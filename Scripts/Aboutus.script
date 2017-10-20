@@ -1,0 +1,21 @@
+﻿
+wait  until ImageFound(100, "Aboutus")
+Click ("Aboutus")
+wait 2
+Click ("Ourhistory")
+
+Wait until ImageFound(60, "Ourhistory_1")
+
+If ImageFound(60, "Ourhistory_1") then
+	LogSuccess "we are in the right Page"
+	
+Else
+	LogError "we are in the wrong page"
+	
+End if
+
+Click ("HomeButton")
+wait 3
+
+
+

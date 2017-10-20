@@ -1,0 +1,27 @@
+﻿
+// Search Criteria
+Wait until ImageFound(60, "Search_Name")
+
+
+Click ("Search_Name")
+wait 1
+TypeText "matthew sinclair",Return
+
+wait 2
+
+Wait until ImageFound(60, "MatthewSinclairThomson")
+
+
+If ImageFound(60, "MatthewSinclairThomson") then
+	LogSuccess "Search criteria found"
+	
+Else
+	LogError "Search criteria not found"
+	
+End if
+
+Click ("HomeButton")
+wait 3
+
+
+

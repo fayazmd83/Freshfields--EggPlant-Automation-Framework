@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="calc_navigation_time.script" package="Freshfields.suite" timestamp="2016-09-30 16:21:24.024 +0100"
+ tests="1" successes="(null)" errors="(null)" time="0.000000">
+  <properties>
+   <property name="RunDate" value="2016-09-30 16:21:24.024 +0100"/>
+   <property name="Status" value="Running"/>
+  </properties>
+  <testcase name="calc_navigation_time.script" assertions="1" successes="0" errors="1" time="23.885">
+  </testcase>
+ </testsuite>
+</testsuites>

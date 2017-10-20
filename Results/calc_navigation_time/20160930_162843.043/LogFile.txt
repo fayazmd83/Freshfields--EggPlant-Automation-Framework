@@ -1,0 +1,11 @@
+﻿2016-09-30 16:28:43.043 +0100	START		Running calc_navigation_time.script
+2016-09-30 16:28:52.052 +0100	Log		Our History -  calculation started	22	on_calc_navigation_time	calc_navigation_time.script
+2016-09-30 16:29:03.003 +0100	Log		User Registration- time calculation started	41	on_calc_navigation_time	calc_navigation_time.script
+2016-09-30 16:29:45.045 +0100	Log		SEARCH -Time calculation started	126	on_calc_navigation_time	calc_navigation_time.script
+2016-09-30 16:29:53.053 +0100	Log		Our History -  calculation started	22	on_calc_navigation_time	calc_navigation_time.script
+2016-09-30 16:30:04.004 +0100	Log		User Registration- time calculation started	41	on_calc_navigation_time	calc_navigation_time.script
+2016-09-30 16:30:47.047 +0100	Log		SEARCH -Time calculation started	126	on_calc_navigation_time	calc_navigation_time.script
+2016-09-30 16:30:56.056 +0100	Log		Our History -  calculation started	22	on_calc_navigation_time	calc_navigation_time.script
+2016-09-30 16:31:07.007 +0100	Log		User Registration- time calculation started	41	on_calc_navigation_time	calc_navigation_time.script
+2016-09-30 16:31:49.049 +0100	EndTestCase		(Duration:"185.802", Errors:"1", Exceptions:"0", StartTime:"2016-09-30 16:28:43 +0100", Successes:"0", TestCase:"calc_navigation_time.script", Warnings:"0")
+2016-09-30 16:31:49.049 +0100	ABORTED		Execution Time 0:03:06 calc_navigation_time.script

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="Main.script" package="Freshfields.suite" timestamp="2016-10-04 12:32:24.024 +0100"
+ tests="1" successes="2" errors="0" time="147.413000">
+  <properties>
+   <property name="RunDate" value="2016-10-04 12:32:24.024 +0100"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="Main.script" assertions="2" successes="2" errors="0" time="147.275">
+  </testcase>
+ </testsuite>
+</testsuites>

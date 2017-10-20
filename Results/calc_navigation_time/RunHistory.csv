@@ -1,0 +1,13 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2016-09-30 15:48:01.001 +0100,"Failure",0:00:00,1,0,0,"20160930_154801.001/LogFile.txt","","SenseTalk Compiler Exception -- in calc_navigation_time:\nSyntax Error at line 143: Syntax Error - can't understand [end of script] at or near character 3401",0
+2016-09-30 15:55:28.028 +0100,"Failure",0:00:00,1,0,0,"20160930_155528.028/LogFile.txt","","SenseTalk Compiler Exception -- in calc_navigation_time:\nSyntax Error at line 143: Syntax Error - can't understand [end of script] at or near character 3401",0
+2016-09-30 15:56:04.004 +0100,"Failure",0:00:00,1,0,0,"20160930_155604.004/LogFile.txt","","SenseTalk Compiler Exception -- in calc_navigation_time:\nSyntax Error at line 125: Syntax Error - can't understand [end of script] at or near character 3373",0
+2016-09-30 16:00:23.023 +0100,"Running",0:00:00,0,0,0,"20160930_160023.023/LogFile.txt","","",0
+2016-09-30 16:03:49.049 +0100,"Running",0:00:00,0,0,0,"20160930_160349.049/LogFile.txt","","",0
+2016-09-30 16:08:49.049 +0100,"Running",0:00:00,0,0,0,"20160930_160849.049/LogFile.txt","","",0
+2016-09-30 16:21:24.024 +0100,"Running",0:00:00,0,0,0,"20160930_162124.024/LogFile.txt","","",0
+2016-09-30 16:22:56.056 +0100,"Running",0:00:00,0,0,0,"20160930_162256.056/LogFile.txt","","",0
+2016-09-30 16:26:00.000 +0100,"Running",0:00:00,0,0,0,"20160930_162600.000/LogFile.txt","","",0
+2016-09-30 16:28:43.043 +0100,"Running",0:00:00,0,0,0,"20160930_162843.043/LogFile.txt","","",0
+2016-09-30 16:33:04.004 +0100,"Success",0:01:03,0,0,0,"20160930_163304.004/LogFile.txt","","",1
+2016-09-30 16:41:16.016 +0100,"Success",0:01:05,0,0,0,"20160930_164116.016/LogFile.txt","","",1

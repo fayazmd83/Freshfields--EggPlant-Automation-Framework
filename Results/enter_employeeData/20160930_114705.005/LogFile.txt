@@ -1,0 +1,4 @@
+﻿2016-09-30 11:47:05.005 +0100	START		Running enter_employeeData.script
+2016-09-30 11:47:17.017 +0100	Exception	Register	No Image Found On Screen: "Register"	2	on_enter_employeedata	enter_employeeData.script
+2016-09-30 11:47:17.017 +0100	EndTestCase		(Duration:"11.669", Errors:"1", Exceptions:"1", StartTime:"2016-09-30 11:47:05 +0100", Successes:"0", TestCase:"enter_employeeData.script", Warnings:"0")
+2016-09-30 11:47:17.017 +0100	ABORTED		Execution Time 0:00:12 enter_employeeData.script

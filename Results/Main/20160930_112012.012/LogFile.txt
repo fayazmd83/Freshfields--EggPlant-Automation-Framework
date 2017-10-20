@@ -1,0 +1,4 @@
+﻿2016-09-30 11:20:12.012 +0100	START		Running Main.script
+2016-09-30 11:20:13.013 +0100	Exception	ie_close_button	Could Not Open Image: ie_close_button	2	on_open_browser	open_browser.script
+2016-09-30 11:20:14.014 +0100	EndTestCase		(Duration:"1.31", Errors:"1", Exceptions:"1", StartTime:"2016-09-30 11:20:12 +0100", Successes:"0", TestCase:"Main.script", Warnings:"0")
+2016-09-30 11:20:14.014 +0100	FAILURE	Screen_Error.png	File Not Found imagefound Error - Could Not Open Image: ie_close_button -- Execution Time 0:00:02 Main.script

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<runHistory script="enter_employeeData">
+ <run>
+  <RunDate>2016-09-30 11:47:05.005 +0100</RunDate>
+  <Status>Running</Status>
+  <Duration>0.000000</Duration>
+  <Errors></Errors>
+  <Warnings></Warnings>
+  <Exceptions></Exceptions>
+  <Successes></Successes>
+  <LogFile>20160930_114705.005/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2016-09-30 12:35:09.009 +0100</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.062000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20160930_123509.009/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Compiler Exception -- in enter_employeedata:
+Syntax Error at line 97: Syntax Error - can&#x27;t understand &quot;End&quot; at or near character 1746</ErrorMessage>
+ </run>
+</runHistory>

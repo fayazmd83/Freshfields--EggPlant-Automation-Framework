@@ -1,0 +1,3 @@
+﻿2016-09-30 15:48:01.001 +0100	START		Running calc_navigation_time.script
+2016-09-30 15:48:01.001 +0100	EndTestCase		(Duration:"0.031", Errors:"1", Exceptions:"0", StartTime:"2016-09-30 15:48:01 +0100", Successes:"0", TestCase:"calc_navigation_time.script", Warnings:"0")
+2016-09-30 15:48:01.001 +0100	FAILURE	Screen_Error.png	SenseTalk Compiler Exception in calc_navigation_time:\nSyntax Error at line 143: Syntax Error - can't understand [end of script] at or near character 3401 -- Execution Time 0:00:00 calc_navigation_time.script

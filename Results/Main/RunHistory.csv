@@ -1,0 +1,19 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2016-09-30 11:18:30.030 +0100,"Failure",0:00:01,1,0,1,"20160930_111830.030/LogFile.txt","","File Not Found -- imagefound Error - Could Not Open Image: ie_close_button",0
+2016-09-30 11:20:12.012 +0100,"Failure",0:00:01,1,0,1,"20160930_112012.012/LogFile.txt","","File Not Found -- imagefound Error - Could Not Open Image: ie_close_button",0
+2016-09-30 11:23:02.002 +0100,"Failure",0:00:00,1,0,1,"20160930_112302.002/LogFile.txt","","File Not Found -- imagefound Error - Could Not Open Image: ie_close_button",0
+2016-09-30 11:25:59.059 +0100,"Failure",0:01:27,1,0,1,"20160930_112559.059/LogFile.txt","","File Not Found -- click Error - Could Not Open Image: one",0
+2016-09-30 12:20:25.025 +0100,"Success",0:01:11,0,0,0,"20160930_122025.025/LogFile.txt","","",1
+2016-09-30 12:23:10.010 +0100,"Success",0:01:13,0,0,0,"20160930_122310.010/LogFile.txt","","",1
+2016-09-30 12:25:20.020 +0100,"Success",0:01:11,0,0,0,"20160930_122520.020/LogFile.txt","","",1
+2016-09-30 12:36:27.027 +0100,"Running",0:00:00,0,0,0,"20160930_123627.027/LogFile.txt","","",0
+2016-09-30 12:38:08.008 +0100,"Success",0:01:12,0,0,0,"20160930_123808.008/LogFile.txt","","",1
+2016-10-04 09:04:24.024 +0100,"Failure",0:02:29,1,0,1,"20161004_090424.024/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""Aboutus""",0
+2016-10-04 09:21:55.055 +0100,"Running",0:00:00,0,0,0,"20161004_092155.055/LogFile.txt","","",0
+2016-10-04 09:25:50.050 +0100,"Success",0:02:32,0,0,0,"20161004_092550.050/LogFile.txt","","",2
+2016-10-04 09:33:40.040 +0100,"Success",0:02:29,0,0,0,"20161004_093340.040/LogFile.txt","","",2
+2016-10-04 09:55:55.055 +0100,"Running",0:00:00,0,0,0,"20161004_095555.055/LogFile.txt","","",0
+2016-10-04 09:58:56.056 +0100,"Running",0:00:00,0,0,0,"20161004_095856.056/LogFile.txt","","",0
+2016-10-04 10:06:47.047 +0100,"Success",0:02:40,0,0,0,"20161004_100647.047/LogFile.txt","","",2
+2016-10-04 12:32:24.024 +0100,"Success",0:02:27,0,0,0,"20161004_123224.024/LogFile.txt","","",2
+2016-10-04 13:59:12.012 +0100,"Success",0:02:31,0,0,0,"20161004_135912.012/LogFile.txt","","",2

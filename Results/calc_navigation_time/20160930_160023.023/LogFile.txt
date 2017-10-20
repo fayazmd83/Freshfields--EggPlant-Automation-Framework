@@ -1,0 +1,4 @@
+﻿2016-09-30 16:00:23.023 +0100	START		Running calc_navigation_time.script
+2016-09-30 16:00:26.026 +0100	Log		Our History -  calculation started	16	on_calc_navigation_time	calc_navigation_time.script
+2016-09-30 16:00:51.051 +0100	EndTestCase		(Duration:"27.629", Errors:"1", Exceptions:"0", StartTime:"2016-09-30 16:00:23 +0100", Successes:"0", TestCase:"calc_navigation_time.script", Warnings:"0")
+2016-09-30 16:00:51.051 +0100	ABORTED		Execution Time 0:00:28 calc_navigation_time.script

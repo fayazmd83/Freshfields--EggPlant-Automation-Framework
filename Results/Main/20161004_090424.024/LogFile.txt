@@ -1,0 +1,45 @@
+﻿2016-10-04 09:04:24.024 +0100	START		Running Main.script
+2016-10-04 09:04:27.027 +0100	imagefound	ie_close_button	Unable to Find Image ie_close_button within 2.00 seconds	2	on_open_browser	open_browser.script
+2016-10-04 09:04:27.027 +0100	typetext		[windowsKey]	13	on_open_browser	open_browser.script
+2016-10-04 09:04:29.029 +0100	typetext		iexplore.exe[returnKey]	15	on_open_browser	open_browser.script
+2016-10-04 09:04:39.039 +0100	typetext		[windowsAltKey]d	18	on_open_browser	open_browser.script
+2016-10-04 09:04:43.043 +0100	typetext		http://www.freshfields.com/en/global[returnKey]	3	on_get_url	get_url.script
+2016-10-04 09:04:44.044 +0100	waitfor	Freshfields-logo.png	found at (126, 93)	4	on_get_url	get_url.script
+2016-10-04 09:04:44.044 +0100	click	Register	at (826, 632)	2	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:04:46.046 +0100	imagefound	registrationPage	found at (172, 129)	3	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:04:53.053 +0100	click	FirstName	at (248, 557)	29	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:04:54.054 +0100	typetext		Myatt	31	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:04:55.055 +0100	typetext		[tab]	33	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:04:56.056 +0100	typetext		Fields	35	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:04:57.057 +0100	typetext		[tab]	37	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:04:59.059 +0100	typetext		2015	39	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:00.000 +0100	typetext		[tab]	41	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:01.001 +0100	typetext		2016	43	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:02.002 +0100	typetext		[tab]	46	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:03.003 +0100	typetext		[tab]	46	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:04.004 +0100	typetext		Sogeti	50	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:05.005 +0100	typetext		[tab]	52	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:06.006 +0100	typetext		Barrister	54	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:07.007 +0100	typetext		[tab]	56	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:09.009 +0100	typetext		myatt.fields	58	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:10.010 +0100	typetext		[shiftDown]'[shiftUp]gmail.com	59	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:11.011 +0100	typetext		[tab]	61	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:12.012 +0100	typetext		myatt123	63	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:13.013 +0100	typetext		[tab]	65	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:14.014 +0100	typetext		myatt123	67	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:16.016 +0100	click	scrolldown	at (1014, 688)	70	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:16.016 +0100	click	scrolldown	at (1014, 688)	70	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:17.017 +0100	click	scrolldown	at (1014, 688)	70	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:18.018 +0100	click	scrolldown	at (1014, 688)	70	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:19.019 +0100	click	scrolldown	at (1014, 688)	70	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:22.022 +0100	click	Submit	at (874, 336)	73	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:25.025 +0100	click	scrolldown	at (1014, 688)	81	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:26.026 +0100	click	scrolldown	at (1014, 688)	81	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:27.027 +0100	click	scrolldown	at (1014, 688)	81	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:28.028 +0100	click	scrolldown	at (1014, 688)	81	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:29.029 +0100	click	scrolldown	at (1014, 688)	81	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:32.032 +0100	imagefound	Errormessage	found at (285, 602)	87	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:05:32.032 +0100	Log		Exception successfully handled.This is a valid error message as the details are not validated.	88	on_enter_employeedata	enter_employeeData.script
+2016-10-04 09:06:54.054 +0100	Exception	Aboutus	No Image Found On Screen: "Aboutus"	1	on_aboutus	Aboutus.script
+2016-10-04 09:06:54.054 +0100	EndTestCase		(Duration:"149.664", Errors:"1", Exceptions:"1", StartTime:"2016-10-04 09:04:24 +0100", Successes:"0", TestCase:"Main.script", Warnings:"0")
+2016-10-04 09:06:54.054 +0100	FAILURE	Screen_Error.png	Image Not Found click Error - No Image Found On Screen: "Aboutus" -- Execution Time 0:02:30 Main.script

@@ -1,0 +1,23 @@
+﻿(* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+  Script generated:  2016-09-29 09:48:54
+  From session: Freshfields-demo
+  Captured on:   2016-06-04 08:48:54
+  From server:  FaySUT
+  Created By: Fayaz Sheriff
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *)
+
+open_browser          //OPENS THE BROWSER
+
+get_url                    //NAVIGATE TO THE URL
+
+enter_employeeData  // REGISTERING A USER 
+
+Aboutus                  // NAVIGATING TO ABOUTUS LINK AND VERIFYING COMPANY PROFILE
+
+Search_functionality  // SEARCH AND VERIFY AN EXISTING USER ACCOUNT
+
+calc_navigation_time  // LOG THE RESULTS
+
+close_browser           // CLOSE THE BROWSER
+
+
